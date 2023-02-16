@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdCode, MdDesktopMac } from 'react-icons/md';
+import { MdDesktopMac } from 'react-icons/md';
 import styled from 'styled-components';
 import PText from './PText';
 
@@ -21,7 +21,6 @@ const ItemStyles = styled.div`
 export default function ServicesSectionItem({
   icon = <MdDesktopMac />,
   title = 'web design',
-  desc = 'I am a freelancer hfytfuyhiuhui fdyr6r7 r7rt76t Looking for fun to watch now or later t',
 }) {
   return (
     <ItemStyles>

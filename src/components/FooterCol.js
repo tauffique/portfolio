@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import ProjectItem from './ProjectItem';
 
 const ColStyle = styled.div`
   .haeding {
@@ -15,7 +14,7 @@ const ColStyle = styled.div`
     font-size: 1.8rem;
   }
 `;
-export default function ({
+export default function FooterCol({
   heading = 'col heading',
   links = [
     {

@@ -41,7 +41,7 @@ const FormStyle = styled.form`
 export default function ContactForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [Message, setMessage] = useState('');
+  const [message, setMessage] = useState('');
 
   return (
     <div>
@@ -65,7 +65,7 @@ export default function ContactForm() {
               type="text"
               id="email"
               name="email"
-              value={name}
+              value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
           </label>
@@ -77,7 +77,7 @@ export default function ContactForm() {
               type="text"
               id="message"
               name="message"
-              value={name}
+              value={message}
               onChange={(e) => setMessage(e.target.value)}
             />
           </label>
